@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 import streamlit as st
 import pandas as pd
 from io import BytesIO
@@ -65,3 +67,4 @@ if run:
         if read_errors:
             st.subheader("Read issues")
             st.json(read_errors)
+
