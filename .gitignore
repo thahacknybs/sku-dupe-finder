@@ -1,0 +1,16 @@
+﻿# Python / build
+__pycache__/
+*.py[cod]
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Streamlit secrets (keep private)
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
